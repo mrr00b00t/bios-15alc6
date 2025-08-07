@@ -1,0 +1,76 @@
+Flash BIOS update - Flash from Operating System version for S14 G2 ALC/S15 G2 ALC/IdeaPad 3 14ALC6/IdeaPad 14sALC 2021/
+IdeaPad 3 15ALC6/IdeaPad 15sALC 2021/IdeaPad 3 17ALC6/IdeaPad 3 15ALC6/Lenovo V14 G2 ALC/Lenovo V15 G2 ALC 
+
+
+Version GLCN39WW
+
+Applicable OS Win10(64-bit)
+
+Installation README
+Updated Date: 2021-07-14
+This package updates the basic input/output system (BIOS) on S14 G2 ALC/S15 G2 ALC/IdeaPad 3 14ALC6/IdeaPad 14sALC 2021/
+IdeaPad 3 15ALC6/IdeaPad 15sALC 2021/IdeaPad 3 17ALC6/IdeaPad 3 15ALC6/Lenovo V14 G2 ALC/Lenovo V15 G2 ALC 
+BIOS, abbreviation of Basic Input/Output System, is integrated in ROM chip on main board, which contains the basic input/output program, system configuration information, system startup self-check and pre-setup programs. BIOS provides most basic low-level hardware operations; it is the connection between software and hardware, and interfacing window of hardware and operating system.
+
+Note: Make note of any settings you have changed in the BIOS Configuration Utility. These settings may have to be re-entered after updating the BIOS.
+
+Attention: Do not power off or restart your computer during the BIOS flashing process, which will cause serious damage and improper functioning of your computer.
+
+Print this file so that you can refer to it during the installation.
+
+Downloading the package
+=======================
+1. Click the file link to download the file from the web page.
+2. When prompted, select a drive and directory in which to save the downloaded file.
+
+Installing the package in Windows.
+======================
+Please follow bellowed step to update BIOS in Windows:
+1.  Locate the file GLCN39WW.exe that has been downloaded.
+2.  Double click the GLCN39WW.exe icon.
+3.  Follow wizard UI by making sure what BIOS to flash and flash on what platform
+5.  Finally press Install & Finish to start flashing. During the process, you are advised not to turn off the computer.
+6.  When the update finishes, the computer will automatically reboot for the changes to take effect.
+
+Updated Information:
+
+Latest Version BIOS fixed all merged issues from previous.
+
+Summary of changes
+==================
+General Information:
+GLCN39WW:
+BIOS Notification  :
+1. Fixed
+  1) None.
+2. Add
+  1) None.
+3. Modified
+  1) Rename.
+  
+EC Notification      :
+1. Fixed
+  1) None.
+2. Add
+  1) None.
+3. Modified
+  1) Optimize some process
+
+Release EC 01 version.   
+  1) Modify SMI from OUTPUT to Trial_state. 
+
+
+IdeaPad and IdeaCentre are registered trademarks of Lenovo.
+
+Microsoft and Windows are trademarks of Microsoft Corporation in 
+the United States, other countries, or both. Other company, product, 
+and service names may be trademarks or service marks of others.
+
+THIS DOCUMENT IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND.  
+WE DISCLAIM ALL WARRANTIES, WHETHER EXPRESS OR IMPLIED, 
+INCLUDING WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF FITNESS 
+FOR A PARTICULAR PURPOSE AND MERCHANTABILITY WITH RESPECT TO THE 
+INFORMATION IN THIS DOCUMENT.  BY FURNISHING THIS DOCUMENT, WEGRANT 
+NO LICENSES TO ANY PATENTS OR COPYRIGHTS.
+
+Copyright (c) Lenovo 2008, all rights reserved

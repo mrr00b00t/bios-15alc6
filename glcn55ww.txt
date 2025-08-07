@@ -1,0 +1,1018 @@
+Flash BIOS update - Flash from Operating System version for S14 G2 ALC/S15 G2 ALC/IdeaPad 3 14ALC6/IdeaPad 14sALC 2021/IdeaPad 3 15ALC6/IdeaPad 15sALC 2021/IdeaPad 3 17ALC6/IdeaPad 3 15ALC6/Lenovo V14 G2 ALC/Lenovo V15 G2 ALC
+
+Version GLCN55WW
+
+Applicable OS Win10(64-bit)&Win11(64-bit)
+
+Installation README
+Updated Date: 2023-08-30
+This package updates the basic input/output system (BIOS) on S14 G2 ALC/S15 G2 ALC/IdeaPad 3 14ALC6/IdeaPad 14sALC 2021/IdeaPad 3 15ALC6/IdeaPad 15sALC 2021/IdeaPad 3 17ALC6/IdeaPad 3 15ALC6/Lenovo V14 G2 ALC/Lenovo V15 G2 ALC 
+BIOS, abbreviation of Basic Input/Output System, is integrated in ROM chip on main board, which contains the basic input/output program, system configuration information, system startup self-check and pre-setup programs. BIOS provides most basic low-level hardware operations; it is the connection between software and hardware, and interfacing window of hardware and operating system.
+
+Note: Make note of any settings you have changed in the BIOS Configuration Utility. These settings may have to be re-entered after updating the BIOS.
+
+Attention: Do not power off or restart your computer during the BIOS flashing process, which will cause serious damage and improper functioning of your computer.
+
+Print this file so that you can refer to it during the installation.
+
+Downloading the package
+=======================
+1. Click the file link to download the file from the web page.
+2. When prompted, select a drive and directory in which to save the downloaded file.
+
+Installing the package in Windows.
+======================
+Please follow bellowed step to update BIOS in Windows:
+1.  Locate the file GLCN55WW.exe that has been downloaded.
+2.  Double click the GLCN55WW.exe icon.
+3.  Follow wizard UI by making sure what BIOS to flash and flash on what platform
+5.  Finally press Install & Finish to start flashing. During the process, you are advised not to turn off the computer.
+6.  When the update finishes, the computer will automatically reboot for the changes to take effect.
+
+Updated Information:
+
+Latest Version BIOS fixed all merged issues from previous.
+
+Summary of changes
+==================
+General Information:
+GLCN55WW:
+BIOS Notification  :
+1. Fixed
+  1) Fixed the hard disk show "Not Installed" in BIOS setup information page.
+2. Add
+  1) N/A
+3. Modified
+       1). Enhancement to address security vulnerability CVE-2021-38578 CVE-2021-38575 CVE-2021-42299 CVE-2021-38576.
+       2). Enhancement to address security vulnerability CVE-2023-20594 CVE-2023-20597.
+       3). Enhancement to address security vulnerability CVE-2021-46770 CVE-2021-46758 CVE-2021-46766 CVE-2021-46774 CVE-2022-23820 CVE-2023-20571.   
+       4). Enhancement to address security vulnerability CVE-2022-23821 CVE-2023-20521 CVE-2023-20526 CVE-2023-20533 CVE-2023-20563 CVE-2023-20565.  .
+       5). Enhancement to address security vulnerability LEN-135994.
+
+EC Notification      :
+1. Fixed
+  1) None.
+2. Add
+  1) None.
+3. Modified
+  1) Rename.
+
+GLCN54WW:
+BIOS Notification  :
+1. Fixed
+  1) Fix issue that not change language and show more than one number when change Language setting to "中文".
+2. Add
+  1) N/A
+3. Modified
+  1) Enhancement to address security vulnerability CVE-2023-31100.
+  2) Enhancement to address security vulnerability CVE-2023-0286,CVE-2022-4304,CVE-2022-4203,CVE-2023-0215,CVE-2023-0216,CVE-2023-0217,CVE-2023-0401.
+  3) Enhancement to address security vulnerability CVE-2022-36765 CVE-2022-36764 CVE-2022-36763
+  4)Enhancement to address security vulnerability CVE-2021-26354/26356/26365/26371/26391//46760/46765/46773/46774/46792/4679
+
+EC Notification      :
+1. Fixed
+  1) None.
+2. Add
+  1) None.
+3. Modified
+  1) Rename.
+GLCN53WW:
+BIOS Notification  :
+1. Fixed
+  1) None.
+2. Add
+  1) Implement Coutry Code String in SMBIOS Type 11.
+3. Modified
+  1) None.
+
+
+
+EC Notification      :
+1. Fixed
+  1) None.
+2. Add
+  1) None.
+3. Modified
+  1) Rename.
+
+GLCN52WW:
+BIOS Notification  :
+1. Fixed
+  1) Fix TP related issue.
+2. Add
+  1) None
+3. Modified
+  1) Enhancement to address security vulnerability LEN-96371,LEN96378.
+
+
+EC Notification      :
+1. Fixed
+  1) None.
+2. Add
+  1) None.
+3. Modified
+  1) Rename.
+
+GLCN51WW:
+BIOS Notification  :
+1. Fixed
+  1) None.
+2. Add
+  1)None
+3.Modified
+  1) Enhancement to address security vulnerability CVE-2021-26316 CVE-2021-26346.
+
+EC Notification      :
+1. Fixed
+  1) None.
+2. Add
+  1) None.
+3. Modified
+  1) Optimize to ignore FP AL0 signal when system is not S0.
+
+GLCN50WW:
+BIOS Notification  :
+1. Fixed
+  1) None.
+2. Add
+  1)None
+3.Modified
+  1) Fix RPMC related issue.
+  2) Fix Novo Button Menu Press fail.
+  3) Fix Micron Onboard RAM parameter fail.
+  4) Fix issue that the DCVT tool check smbios fail.
+
+EC Notification      :
+1. Fixed
+  1) None.
+2. Add
+  1) None.
+3. Modified
+  1) Rename.
+
+GLCN49WW:
+BIOS Notification  :
+1. Fixed
+  1) None.
+2. Add
+  1)None
+3. Modified
+  1) Support L2 by remove Ax88772.
+EC Notification      :
+1. Fixed
+  1) None.
+2. Add
+  1) None.
+3. Modified
+  1) Rename.
+
+GLCN48WW:
+BIOS Notification  :
+1. Fixed
+  1) None.
+2. Add
+  1)None
+3. Modified
+  1) Enhancement to address security vulnerability LEN-86144
+  2) Enhancement to address security vulnerability CVE-2020-12930, CVE-2020-12931, CVE-2020-12944, CVE-2020-12946, CVE-2020-12951, CVE-2021-26312, CVE-2021-26335, CVE-2021-26336, CVE-2021-26337, CVE-2021-26339, CVE-2021-26351, CVE-2021-26352, CVE-2021-26372, CVE-2021-26373, CVE-2021-26375, CVE-2021-26376, CVE-2021-26378, CVE-2021-26388, CVE-2021-26390
+  
+EC Notification      :
+1. Fixed
+  1) None.
+2. Add
+  1) None.
+3. Modified
+  1) None.
+GLCN47WW:
+BIOS Notification  :
+1. Fixed
+  1) None.
+2. Add
+  1) Add HKC MB156CS01-2 && HKC MB140CS01-3 Panel.
+3. Modified
+  1) Fine tune security.
+  2) Add INX_N156HCA-EAC C2 panel.
+  3) Add Adata8G spd memory information
+
+  
+EC Notification      :
+1. Fixed
+  1) None.
+2. Add
+  1) None.
+3. Modified
+  1) Optimize to save security flag.
+
+GLCN46WW:
+BIOS Notification  :
+1. Fixed
+  1) Fix issue that the unit do not show novo button menu with Novo button.
+2. Add
+  1) None
+3. Modified
+  1) Fine tune silent installation feature.
+  
+EC Notification      :
+1. Fixed
+  1) None.
+2. Add
+  1) None.
+3. Modified
+  1) Rename.
+GLCN45WW:
+BIOS Notification  :
+1. Fixed
+  1) Fix issue that the unit will hung up when press F9 to load default in BIOS setup entering with Novo button.
+2. Add
+  1) Add INX_N156HCA-EAC C2 panel
+3. Modified
+  1) None.
+  
+EC Notification      :
+1. Fixed
+  1) None.
+2. Add
+  1) None.
+3. Modified
+  1) Rename.
+
+GLCN44WW:
+BIOS Notification  :
+1. Fixed
+  1) None.
+2. Add
+  1) Add support HANA SODIM
+  2) Add Micron 8G && Micron 16G && Adata8G spd memory information.
+  3) Add AUO 15" FHD IPS panel && 14.0" 16:9 FHD 1920*1080 IPS NTSC45% Panel
+3. Modified
+  1) Enhancement to address security vulnerability LEN-73442&LEN-73440.(fix side effect)
+  
+EC Notification      :
+1. Fixed
+  1) None.
+2. Add
+  1) None.
+3. Modified
+  1) Enhancement to address security vulnerability LEN-73442&LEN-73440
+
+GLCN42WW:
+BIOS Notification  :
+1. Fixed
+  1) None.
+2. Add
+  1) Add BOE、LGD and HKC Panel support.
+  2) Add Samsung16G on board ram support.
+3. Modified
+  1) Enhancement to address security vulnerability LEN-66615.
+  2) Enhancement to address security vulnerability LEN-73441.
+  3) Show Language option in BIOS Setup and optimize the context of some options.
+  
+EC Notification      :
+1. Fixed
+  1) None.
+2. Add
+  1) None.
+3. Modified
+  1) None.
+GLCN41WW:
+BIOS Notification  :
+1. Fixed
+  1) Fix Hardware Security Testability Interface Test WHQL fail issue.
+  2) Fix issue that HDD master password can not unlock HDD anymore after clearing the HDD password with wrong master password.
+2. Add
+  1) None.
+3. Modified
+  1) Disable SHA1 and Enable SHA256 for New OS TPM UEFI Preboot fail WHQL issue.
+  2) Optimize BIOS post time.
+  
+EC Notification      :
+1. Fixed
+  1) None.
+2. Add
+  1) None.
+3. Modified
+  1) None.
+GLCN40WW:
+BIOS Notification  :
+1. Fixed
+  1) Fix unit can not boot to winpe from lan directly.
+2. Add
+  1) None.
+3. Modified
+  1) Rename.
+  
+EC Notification      :
+1. Fixed
+  1) None.
+2. Add
+  1) None.
+3. Modified
+   1) Optimize for safety certification when battery capacity is less than 10% in AD+DC mode.
+
+GLCN39WW:
+BIOS Notification  :
+1. Fixed
+  1) None.
+2. Add
+  1) None.
+3. Modified
+  1) Rename.
+  
+EC Notification      :
+1. Fixed
+  1) None.
+2. Add
+  1) None.
+3. Modified
+  1) Optimize some process
+
+GLCN38WW:
+BIOS Notification  :
+1. Fixed
+  1) HDD password Unlock Failed.
+2. Add
+  1) None.
+3. Modified
+  1) Update MTK WLAM SAR table.
+  
+EC Notification      :
+1. Fixed
+  1) None.
+2. Add
+  1) None.
+3. Modified
+  1) Rename.
+
+GLCN37WW:
+BIOS Notification  :
+1. Fixed
+  1) None.
+2. Add
+  1) support New OS variable.
+  2) Add support Micron 4G and 8G onboard ram.
+3. Modified
+  1) Enable KDMA
+  2) Update MTK WLAN PLDR and sar table.
+  
+EC Notification      :
+1. Fixed
+  1) None.
+2. Add
+  1) None.
+3. Modified
+  1) Rename.
+
+GLCN36WW:
+BIOS Notification  :
+1. Fixed
+  1) None.
+2. Add
+  1) None.
+3. Modified
+  1) Support MTK WLAM SAR table and WIFI PLDR,reference to Yx60ACH.
+  2) Update EDID table according to SED Fuqiang Required.
+  3) Update to 1.0.0.2b_PatchC.
+  
+EC Notification      :
+1. Fixed
+  1) None.
+2. Add
+  1) None.
+3. Modified
+Release EC 36 version. 
+
+  
+==================
+General Information:
+GLCN35WW:
+BIOS Notification  :
+1. Fixed
+  1) None.
+2. Add
+  1) None.
+3. Modified
+  1) Change VGA SSID from 0x3F9617AA to 0x3F9517AA.
+  2) Follow the requirements of EE to make EDP Sequence meet T9+T10>200ms.
+  3) Add panel 15.6" 16:9 FHD 1920*1080 IPS NTSC45% for S360 15' free sync edid override.
+  
+EC Notification      :
+1. Fixed 
+  1) None.
+2. Add
+  1) None.
+3. Modified.
+  1) None.
+Release EC 35 version.  
+  1) Reduce FPR debounce time 30ms to 20ms.
+
+==================
+General Information:
+GLCN34WW:
+BIOS Notification  :
+1. Fixed
+  1) None.
+2. Add
+  1) None.
+3. Modified
+  1) Update code to meet Smart Battery 2.0 Interface Spec V1.6.
+  
+EC Notification      :
+1. Fixed 
+  1) None.
+2. Add
+  1) None.
+3. Modified.
+  1) None.
+Release EC 34 version.  
+  
+==================
+General Information:
+GLCN33WW:
+BIOS Notification  :
+1. Fixed
+  1) None.
+2. Add
+  1) None.
+3. Modified
+  1) Update AMD 1002B PATCH B.
+  
+EC Notification      :
+1. Fixed 
+  1) None.
+2. Add
+  1) None.
+3. Modified.
+  1) None.
+Release EC 33 version.  
+  1) Modify thermal setting follow S1415 thermal table V01.
+  2) Modify the battery does not enter s4 after falling to critical under s3.
+
+==================
+General Information:
+GLCN32WW:
+BIOS Notification  :
+1. Fixed
+  1) Fixed issue # Uninstall Hyper_V and disable AMD SVM on BIOS Setup.
+2. Add
+  1) Add panel 14" 16:9 HD 1366*768 TN NTSC45% for S360 14' free sync edid override.
+3. Modified
+  1) Roll back OneKeyRecovery.depex & OneKeyRecovery.efi to fix <1>'s side effect : can't enter OS.
+  2) Modify Setup HDD string to follow Spec.
+  
+EC Notification      :
+1. Fixed 
+  1) None.
+2. Add
+  1) None.
+3. Modified.
+  1) None.
+Release EC 32 version.  
+  1) Modify FN+Q can not switch power.
+  2) Delay 200ms to turn on the backlight when the Panel is powered on.
+
+==================
+General Information:
+GLCN31WW:
+BIOS Notification  :
+1. Fixed
+  1) None.
+2. Add
+  1) None.
+3. Modified
+  1) Disable Flip to Boot by default, S1415 following V1415.
+  2) Not show PCI Lan in BIOS setup Boot.
+  3) Unit enter into OS then auto hibernate when plug in adapter with empty battery when the waring level is 0.
+
+EC Notification      :
+1. Fixed 
+  1) None.
+2. Add
+  1) None.
+3. Modified.
+  1) None.
+Release EC 31 version.  
+  1) Modify charge Setting for power require.
+  2) Modify battery RSOC below 5% can't resume from S3.
+
+==================
+General Information:
+GLCN30WW:
+BIOS Notification  :
+1. Fixed
+  1) None.
+2. Add
+  1) Add work around for FB/S3 stress hang post code 0xB6 issue, black screen, SMU GFX channel stack.
+3. Modified
+  1) Modify S1415 project board id: BoardID 7 ==1 && Board 5 == 1.
+  2) Update EDID FOR free sync feature for S1415.
+  3) System time set 2000~2099.
+  4) Enable ACP feature.
+  5) Remove watch dog for hang 0xb6 work around.ID 5 GPIO131.
+  
+EC Notification      :
+1. Fixed
+  1) None.
+2. Add
+  1) None.
+3. Modified
+Release EC 30 version. 
+1) Remove WR for Run fastboot hang 0xB6.
+2) Add Check OS status,When the Lid Open and the S0 status enable TP.
+3) Modify thermal setting follow V1415 thermal table V06 For S1415.  
+
+  
+==================
+General Information:
+GLCN19WW:
+BIOS Notification  :
+1. Fixed
+  1) None.
+2. Add
+  1) None.
+3. Modified
+  1) Not config GPIO_MUX_I2C_TOUCH_PNL_INT as a interrupt pin according to Touch Screen Board ID 5 GPIO131.
+  
+EC Notification      :
+1. Fixed 
+  1) None.
+2. Add
+  1) None.
+3. Modified.
+  1) None.
+==================
+General Information:
+GLCN18WW:
+BIOS Notification  :
+1. Fixed
+  1) Fixed PA hang logo and blackscreen hang.
+2. Add
+  1) Add some 80 debug code in PhUsbPkg\UsbBus to debug PA blackscreen 0x81 & hang logo 0x25/0x51/0xF3.
+3. Modified
+  1) None.
+  
+EC Notification      :
+1. Fixed 
+  1) None.
+2. Add
+  1) None.
+3. Modified.
+  1) None.
+==================
+General Information:
+GLCN17WW:
+BIOS Notification  :
+1. Fixed
+  1) Fixed hang Lenovo logo after winpe loading when preload.
+  2) Fixed format system HDD and find the"System Recovery" not hidden in NOVO menu.
+2. Add
+  1) Add work around for stress hang issue.
+3. Modified
+  1) As AMD required set the value PcdCfgSystemConfiguration to 3.
+  2) Reduce the OEM logo time to 100MS.
+  3) Removed Program LAN device(updated by LAN tool) and Signal Processing Controller(no this device) SSID/SVID code.
+  
+EC Notification      :
+1. Fixed 
+  1) None.
+2. Add
+  1) Add WR for Run fastboot hang 0xB6.
+3. Modified.
+  1) Modify TYPEC port could not recognize USB3.0.
+  2) Modify S3 FPR power failure issue.
+  
+==================
+General Information:
+GLCN16WW:
+BIOS Notification    :
+1. Fixed
+  1) FIX press F2 F12 show Keyboard Not Detected.
+  2) Fix issue that setup show two HDD password status.
+2. Add
+  1) Add SMART Brazil memory STRING.
+3. Modified
+  1) Modify follow s350 ARE, configure DP HBR2 and HBR3.
+  2) Modify only surpport jpg picture for DIY LOGO.
+  3) Use the connection to determine touch Screen not Board ID.
+  4) Disable RTD3.
+  
+EC Notification      :
+1. Fixed 
+  1) None.
+2. Add
+  1) None.
+3. Modified.
+  1) None.
+Release EC 16 version.  
+  1) Modify thermal setting follow S360ALC thermal table V09.
+  2) Modify EC_VBUS_EN to control TYPEC.
+  
+==================
+General Information:
+GLCN15WW:
+BIOS Notification    :
+1. Fixed
+  1) None.
+2. Add
+  1) None.
+3. Modified
+  1) Modify W/A for hang 0x85,can not to boot issue..
+  2) Modify type11, remove the string2 when there is no country code.
+  3) Modify code to meet project抯 request: 搉eed EC flash UI during normal flash, but no need during WUFU?
+  
+EC Notification      :
+1. Fixed 
+  1) None.
+2. Add
+  1) None.
+3. Modified.
+  1) None.
+Release EC 15 version.  
+  1)Modify charge setting follow power require.
+[How To Flash] :
+	  1. Plug in AC to flash EC
+          2. Run "ECFlash.nsh" in SHELL to flash EC
+	  3. Run "checksum.bat" in CheckSum folder for EC file checksum.
+[Notes]                :
+	1. Run "checksum.bat" in CheckSum folder for EC file checksum.
+
+==================
+General Information:
+GLCN14WW:
+BIOS Notification    :
+1. Fixed
+  1) Fix for Stress hang logo 0x5c issue.
+2. Add
+  1) Add CHARGE IN BATTERY item in setup.
+3. Modified
+  1) Modify Enable HDMI2.0 as project team confirmed.
+  2) Disable Remove RTC Battery function.
+  3) Modify Charge In Battery string in setup.
+  
+EC Notification      :
+1. Fixed 
+  1) None.
+2. Add
+  1) None.
+3. Modified.
+  1) None.
+Release EC 14 version.  
+  1)Solve the problem of S3 FPR power failure problem.
+  2)Solve the problem of always exiting STP mode.
+  3)Remove add SMI for RTC Battery common design.
+
+==================
+General Information:
+GLCN13WW:
+BIOS Notification    :
+1. Fixed
+  1) Fix issue that max fan speed in OS when update tp wufu success.
+  2) Fix S3 resume time is long when HDD installed.
+2. Add
+  1) None.
+3. Modified
+  1) Modify not show hidden page after press F2 in debug page.
+  2) Hide Os optimized defaults item in bios setup.
+  3) Modify battery health lifespan and battery health tips read the wrong values.
+  4) Enable Lenovo sign.
+  
+EC Notification      :
+1. Fixed
+  1) None.
+2. Add
+  1) None.
+3. Modified
+Release EC 13 version.   
+  1)Modify thermal setting Prevent exiting STP mode without meeting conditions.
+  2)  Add Smart Battery2.0.
+  3)  Upadte sequence follow EE require.
+
+==================
+General Information:
+GLCN12WW:
+BIOS Notification    :
+1. Fixed
+  1) Fixed no progress bar when do BIOS WUFU.
+2. Add
+  1) None.
+3. Modified
+  1) Modify UMA Frame Buffer item in BIOS setup.
+  2) Modify setup item 'Device Guard' String.
+  3) HID Compliant Mouse Default HID: "MSFT0001" According to key Part requirement.
+  4) Modify the warning message when user input the wrong password.
+  5) Modify Flip to boot default value to disable on V1415ALC.
+  6) Enable "Always on USB" S360 need too.
+  7) Modify the chagboot.c code,after update the build tool to VS2015, the tpmlock function will fail.
+  
+EC Notification      :
+1. Fixed 
+  1) None.
+2. Add
+  1) None.
+3. Modified.
+  1) None.
+Release EC 12 version.  
+  1) Add keep EC setting when power off.
+  2) Modify charge Setting for power require.
+  3) Resolve battery FW can not update.
+  4) Reduce FPR debounce time.
+  5) Modify thermal setting follow V1415/S360 thermal table V06/V05.
+
+==================
+General Information:
+GLCN11WW:
+BIOS Notification    :
+1. Fixed
+  1) Fixed WHQL secure boot logo test fail issue.
+  2) Fixed issue #  揜eset to Setup Mode?or 揜estore Factory Keys?will default select 揘o?issue.
+2. Add
+  1) None.
+3. Modified
+  1) Hidden Language, SATA Controller Mode, Boot Mode options in BIOS Setup menu.
+  2) Enable LENOVOOIL_DEVICE_GUARD_SUPPORT.
+  3) The PID information is modified because the ELAN material number has changed.
+  
+EC Notification      :
+1. Fixed
+  1) None.
+2. Add
+  1) None.
+3. Modified
+Release EC 11version.   
+  1) Modify DPTC setting follow power require.
+  2) Add 3V_USM and 5V_USM GPIO control for power require.
+  3) Update sequence follow EE suggest.
+  4) Add the power led is shielded when FPR led is working.
+  5) Modify Battery Support Express charging in MS to S3.
+
+==================
+General Information:
+GLCN10WW:
+BIOS Notification    :
+1. Fixed
+  1) None.
+2. Add
+  1) None.
+3. Modified
+  1) Disable BIOS back Flash by default for S360_V1415ALC.
+  2) Close the Setup BIOS hide page.
+  3) Tuning DC power consumption as Power team required.
+  4) Modify default value to 0 when UMA frame buffer size is 512M.
+  5) Follow the name rule for Crisis BIOS to change the GLCrisis.bin name to glcn.bin.
+  
+EC Notification      :
+1. Fixed
+  1) None.
+2. Add
+  1) None.
+3. Modified
+Release EC 10 version.   
+1)Support factory test tool for lid disable on enable.
+2)  Support factory test tool for lid on to panel backoff on or off.
+3)  Delay 200msec turn on backlight.
+4)  Modify thermal setting follow V1415 thermal table V04.
+5)  Return to V08 power sequence.
+  
+==================
+General Information:
+GLCN09WW:
+BIOS Notification    :
+1. Fixed
+  1) None.
+2. Add
+  1) None.
+3. Modified
+  1) Update codebase to CRB_3.1.36.
+  
+EC Notification      :
+1. Fixed 
+  1) None.
+2. Add
+  1) None.
+3. Modified.
+  1) None.
+Release EC 09 version.  
+  1)Update sequence follow EE require.
+  
+  
+  
+==================
+General Information:
+GLCN08WW:
+BIOS Notification    :
+1. Fixed
+  1) Fix cannot do DIY LOGO with the OS of HDD.
+  2) Fix FN+lock led will not controlled.
+  3) Fix Lenovo logo will flicker once before enter OS when select normal startup from Novo Button menu.
+  4) Fix issue that lightness is not 60 nits when change to Battery saving mode.
+2. Add
+  1) Add "IPV4 PXE first" option in BIOS setup.
+3. Modified
+  1) Change country code to new SMBIOS type 11 which is 1st type 11.
+  2) As checked with EC, modify EC RAM 0x8C which following S750 ARH.
+  3) By filling in the PWM value for the PWM table, the brightness of each order of the screen can meet the requirements.
+
+EC Notification      :
+1. Fixed
+  1) None.
+2. Add
+  1) None.
+3. Modified
+Release EC 08 version.   
+  1) Add support APP to enable fast charge.
+  2) Modify thermal setting follow S360ALC thermal table V03.
+
+  
+  
+==================
+General Information:
+GLCN07WW:
+BIOS Notification    :
+1. Fixed
+  1) Fix FnLock LED not correct after S4/WB/CB.
+2. Add
+  1) Add AC power and battery check when flash bios.
+3. Modified
+  1) Modify system default time to 2020/10/20.
+  2) Modify xhci right device id.
+  3) Modify TOUCH_PANEL_INTR_N in asl code.follow EE's requirements.
+
+EC Notification      :
+1. Fixed
+  1) None.
+2. Add
+  1) None.
+3. Modified
+Release EC 07 version.   
+  1)Add AC_PRESENT_LOW to Solve the leakage problem.
+  2)Add for test tool into AC power on.
+  3)Modify thermal setting follow V1415 thermal table V03.
+  
+==================
+General Information:
+GLCN06WW:
+BIOS Notification    :
+1. Fixed
+  1) None.
+2. Add
+  1) Add country code to new SMBIOS type 11 which is 2nd type 11.
+3. Modified
+  1) Modify GPIO 75,89,90.follow EE's requirements.
+  2) AMD request to enable PSPP.
+  3) Modify there is no Device firmware displayed in the device manager for FOCAL TP.
+
+EC Notification      :
+1. Fixed
+  1) None.
+2. Add
+  1) None.
+3. Modified
+Release EC 06 version.   
+  1)Add SMI for RTC Battery common design.
+  2)Change GPA2 and GPA7 to OD pin according to EE requirements.
+  3)Modify Hotkey PrtSc and Insert to keep function normal.
+  4)Add PM_PWRBTN_LOW to Solve the leakage problem.
+
+==================
+General Information:
+GLCN05WW:
+BIOS Notification    :
+1. Fixed
+  1) Fix No Lenovo logo during power on system after flash V03 BIOS.
+2. Add
+  1) None.
+3. Modified
+  1) Protect psp when using exe image flash BIOS
+  2) Follow AMD guide set APCB_TOKEN_UID_ESPI_ABL_INIT_ENABLE_VALUE to FALSE.
+  3) Following BIOS implementation guide and refer S750 ARH, to update system power status to SMU.
+  4) Fix type-c can't be used.
+  5) Add temp work around to fix hang 0x9E issue.
+
+EC Notification      :
+1. Fixed
+  1) None.
+2. Add
+  1) None.
+3. Modified
+Release EC 04 version.   
+  1)Modify FPR PWR_EN and DELINK GPIO setting to enable FPR feature.
+  2)Modify thermal setting follow S360ALC thermal table V03.
+  3)Return to V03 power sequence.
+
+==================
+General Information:
+GLCN04WW:
+BIOS Notification    :
+1. Fixed
+  1) Fix WLAN can be enable in OS when disable in setup.
+  2) Fix Enter S4 BSOD occur after resume from S3.
+  3) FIX the Windows boot manager become last boot after load default.
+  4) FIX Screen without backlight after press NOVO button base on shutdown from BIOS setup.
+2. Add
+  1) None.
+3. Modified
+  1) Modify LAN STRING to USB LAN from PCI LAN.
+  2) Disable 揜egulatory Information攁nd揢EFI Diagnostics?items in NOVO button menu.
+  3) Hide OA2 item in BIOS setup.
+
+EC Notification      :
+1. Fixed
+  1) None.
+2. Add
+  1) None.
+3. Modified
+Release EC 04 version.   
+  1)Modify Sequence according to EE requirements.
+  2)Add RSMRST_LOW to fix auto power on problem.
+  3)Modify thermal setting follow S360ALC and V1415ALC thermal table V02.
+
+
+==================
+General Information:
+GLCN03WW:
+BIOS Notification    :
+1. Fixed
+  1) Fix OS will wait at Lenovo Logo for a long time and cannot play audio.
+  2) Fix "Allow this device to wake the computer" cannot be checked in Lan PM.
+2. Add
+  1) Add thermal solution ITS4.0 + STT2.0 according S750 ARH.
+  2) Add Super key Function.
+3. Modified
+  1) Disable secure boot, will remove this in future.
+  2) Remove legacy Boot from the Setup menu because the Legacy module is not supported.
+
+EC Notification      :
+1. Fixed
+  1) None.
+2. Add
+  1) None.
+3. Modified
+Release EC 03 version.   
+  1) Pull down 3VL in DSX.
+  2) Add F9/F10/F11 Shortcut icon function for V1415.
+  3) Follow UE spec modify 揕aunch Snipping Tool to Launch windows screenshot tool.
+  4) Add LAN_wake features.
+  5) Enable base function.
+  6) Modify Input current 0X3F write 0c00.
+
+==================
+General Information:
+GLCN02WW:
+BIOS Notification    :
+1. Fixed
+  1) Fix the Windows boot manager become last boot after load default.
+2. Add
+  1) None.
+3. Modified
+  1) Enable PLDR for BT reference to S750-ARH.
+  2) Open the Setup BIOS hide page,Remove it when EVT exits.
+  3) Enable FnLock LED and correct capslock numlock LED.
+
+EC Notification      :
+1. Fixed
+  1) None.
+2. Add
+  1) None.
+3. Modified
+Release EC 02 version.   
+1) Follow S540TGL Add Q6C and Battery timer count for RTC Battery common design.
+2) Fix the problem of inserting Adaptor auto power on for the first time.
+3) Fix the problem of abnormal 15-inch keyboard function.
+
+==================
+General Information:
+GLCN01WW:
+BIOS Notification    :
+1. Fixed
+  1) Fixed setup will arise warning when press F10 save and exit setup.
+  2) Fixed can not recognize so-dimm memory.
+2. Add
+  1) None.
+3. Modified
+  1) Change EC ROM address.
+
+
+EC Notification      :
+1. Fixed
+  1) None.
+2. Add
+  1) None.
+3. Modified
+Release EC 01 version.   
+  1) Modify SMI from OUTPUT to Trial_state. 
+
+Trademarks
+==========
+IdeaPad and IdeaCentre are registered trademarks of Lenovo.
+
+Microsoft and Windows are trademarks of Microsoft Corporation in 
+the United States, other countries, or both. Other company, product, 
+and service names may be trademarks or service marks of others.
+
+THIS DOCUMENT IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND.  
+WE DISCLAIM ALL WARRANTIES, WHETHER EXPRESS OR IMPLIED, 
+INCLUDING WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF FITNESS 
+FOR A PARTICULAR PURPOSE AND MERCHANTABILITY WITH RESPECT TO THE 
+INFORMATION IN THIS DOCUMENT.  BY FURNISHING THIS DOCUMENT, WEGRANT 
+NO LICENSES TO ANY PATENTS OR COPYRIGHTS.
+
+Copyright (c) Lenovo 2008, all rights reserved
